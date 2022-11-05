@@ -22,11 +22,11 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'minitest', '~> 5.8.4'
-  spec.add_development_dependency 'pry-byebug', '~> 1.3.3'
+  spec.add_development_dependency 'pry-byebug'
   spec.add_development_dependency 'vcr', '~> 3.0.1'
-  spec.add_development_dependency 'webmock', '~> 1.22.6'
+  spec.add_development_dependency 'webmock'
 
   spec.add_dependency 'faraday', '< 2'
-  spec.add_dependency 'json', '~> 1.8.3'
+  spec.add_dependency 'json'
   spec.add_dependency 'word_wrap', '~> 1.0.0'
 end
